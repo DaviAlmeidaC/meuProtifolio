@@ -96,6 +96,7 @@ a{
     padding-bottom: 70px;
     font-size: 20px;
     animation: go-back 6s;
+    padding-right: -100px;
 }
 
 .sobre{
@@ -331,7 +332,7 @@ footer{
 .bola:hover{
     transform: scale(1.2);
     transition: transform 0.2s;
-    border: #000000 solid 10px;
+    border: #000000 solid 1px;
 }
 
 .info-bola-titulo:hover{
