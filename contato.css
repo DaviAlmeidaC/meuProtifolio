@@ -1,0 +1,204 @@
+@import url(index.css);
+
+.div-prin-cont{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #D9D9D9;
+    display: flex;
+
+}
+
+.div-contateme{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 120px;
+}
+
+.h1-cont1{
+    margin-top: -35px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    animation: go-back 1s;
+}
+
+.li-cont{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+.li-cont1{
+    animation: go-back 2.5s;
+}
+
+.li-cont2{
+    animation: go-back 3s;
+}
+
+.li-cont3{
+    animation: go-back 3.5s;
+}
+
+.li-cont4{
+    animation: go-back 3.8s;
+}
+
+.img-fora{
+    height: 23px;
+}
+
+.ul-cont-rede{
+    display: flex;
+}
+
+.img-cont-rede{
+    margin-top: 20px;
+}
+
+.img-cont-rede1{
+    animation: go-back 4s;
+}
+
+.img-cont-rede2{
+    animation: go-back 4.3s;
+}
+
+.img-cont-rede3{
+    animation: go-back 4.6s;
+}
+
+.li-cont-rede{
+    height: 23px;
+    margin-right: 15px;
+}
+
+.h1-cont{
+    margin-top: -26px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    animation: go-back 2s;
+}
+
+.form{
+    padding: 10px 0px;
+}
+
+.form1{
+    padding: 10px 0px;
+    padding-right: 200px;
+}
+
+.form21{
+    animation: go-back 2.5s;
+}
+
+.form2{
+    animation: go-back 2.5s;
+}
+
+.form3{
+    animation: go-back 2.8s;
+}
+
+.form4{
+    animation: go-back 3.3s;
+}
+
+.form5{
+    animation: go-back 3.6s;
+}
+
+.form6{
+    animation: go-back 3.9s;
+}
+
+.form7{
+    animation: go-back 4.2s;
+}
+
+.form8{
+    animation: go-back 4.5s;
+}
+
+.form9{
+    animation: go-back 4.8s;
+}
+
+.form10{
+    animation: go-back 5s;
+}
+
+.form-nome{
+    display: flex;
+}
+
+.li-form{
+    margin-left: 27px;
+}
+
+.form-lu2{
+    display: flex;
+}
+
+.li-form2{
+    margin-right: 27px;
+}
+
+.form-opçoes{
+    border-radius: 5px;
+    background-color: #343434;
+    padding: 10px 5px;
+    padding-right: 106px;
+    cursor: pointer;
+}
+
+summary{
+    color: #b1adad;
+}
+
+.algumacoisa{
+    color: white;
+}
+
+.ul-form-ult{
+    margin-top: 35px;
+}
+
+.botao-form{
+    display: inline-block;
+    padding: 7px 45px;
+    background-color: #343434;
+    color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+
+.li-cont-rede:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.botao-form:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.form-opçoes:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.img-vetor:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.img-fora:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}

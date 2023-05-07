@@ -1,0 +1,70 @@
+@import url(index.css);
+
+.div-prin-projetos{
+    padding-top: 85px;
+}
+
+.primeirotitulo{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    animation: go-back 1s;
+}
+
+.preto-pro{
+    border-top: 3px  solid black;
+    margin-top: -4px;
+}
+
+.segundotitulo{
+    color: #BDBDBD;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    animation: go-back 2s;
+}
+
+.ul-img-pro{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.li-titulo-pro{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    animation: go-back 3s;
+}
+
+.li-texto-pro{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    animation: go-back 3.5s;
+}
+
+.ul-img-pro1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.li-titulo-pro1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    animation: go-back 6s;
+}
+
+.li-texto-pro1{
+    display: flex;
+    justify-content: space-around;
+    animation: go-back 6.5s;
+}
+
+.li-proj-img:hover{
+    box-shadow:0px 0px 30px 30px #141414 inset ;
+    
+}

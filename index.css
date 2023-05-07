@@ -1,10 +1,28 @@
+@keyframes fade-in {
+    from { opacity: 0 }
+    to   { opacity: 1 }
+  }
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }   
+
 body{
+    animation: fade-in 1.5s normal forwards ease-in-out;
     font-family: 'Roboto', sans-serif;
 }
 
 header{
     background-color: #EAEAEA;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 0px 5px 5px #EAEAEA;
 }
 
 .logo{
@@ -46,13 +64,16 @@ a{
     padding-top: 130px;
     padding-bottom: 10px;
     font-size: 20px;
+    animation: go-back 2s;
 }
 
 .texto{
     display: flex;
     flex-direction: column;
+}
 
-    
+.h2{
+    animation: go-back 1s;
 }
 
 .div-img{
@@ -61,6 +82,7 @@ a{
     justify-content: end;
     height: 370px;
     width: 1150px;
+    animation: go-back 2s;
 }
 
 
@@ -73,6 +95,7 @@ a{
     padding-top: 80px;
     padding-bottom: 70px;
     font-size: 20px;
+    animation: go-back 6s;
 }
 
 .sobre{
@@ -83,7 +106,6 @@ a{
     display: flex;
     flex-direction: column;
     margin-left: 100px;
-    
 }
 
 
@@ -97,6 +119,7 @@ a{
     justify-content: center;
     padding-top: 50px;
     font-size: 19px;
+    animation: go-back 8s;
 }
 
 .coes{
@@ -112,6 +135,7 @@ h2{
     font-size: 17px;
     font-weight: bold;
     margin-bottom: 50px;
+    animation: go-back 10s;
 }
 
 .bolas{
@@ -202,15 +226,13 @@ footer{
     font-size: 12px;
 }
 
-.div-hard-1{
-    
-    
-}
 
 .h1-hard{
     display: flex;
     justify-content: center;
     margin-top: 35px;
+    padding: 30px;
+    animation: go-back 2s;
 }
 
 .skils{
@@ -222,6 +244,7 @@ footer{
     display: flex;
     justify-content: center;
     color: #BDBDBD;
+    animation: go-back 2.5s;
 }
 
 .li-hard{
@@ -231,6 +254,35 @@ footer{
     margin-left: 200px;
     display: flex;
     flex-direction: column;
+    
+}
+
+.li-hard1{
+    animation: go-back 1s;
+}
+
+.li-hard2{
+    animation: go-back 2s;
+}
+
+.li-hard3{
+    animation: go-back 3s;
+}
+
+.li-hard4{
+    animation: go-back 3.5s;
+}
+
+.li-hard5{
+    animation: go-back 4s;
+}
+
+.li-hard6{
+    animation: go-back 4.5s;
+}
+
+.li-hard7{
+    animation: go-back 5s;
 }
 
 .img-hard{
@@ -257,7 +309,55 @@ footer{
   progress {
     
     background: yellow;
-  
-    /* É necessário alterar o valor para none */
     
   }
+
+.a{
+    transition: transform 1s;
+  transform: translateX(0) scale(0.5);
+}
+
+.a:hover, a:focus{
+    color: rgb(80, 90, 117);
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.li-rede:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.bola:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+    border: #000000 solid 10px;
+}
+
+.info-bola-titulo:hover{
+    color: #000000;
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.logo-final:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.logo-final1:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.img-eu:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.h1-1:hover{
+    color: #7f7575;
+}
+
+
+
