@@ -26,7 +26,7 @@ header{
 }
 
 .logo{
-    margin-right: 830px;
+    margin-right: 730px;
     font-size: 20px;
 }
 
@@ -227,92 +227,6 @@ footer{
     font-size: 12px;
 }
 
-
-.h1-hard{
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    padding: 30px;
-    animation: go-back 2s;
-}
-
-.skils{
-    border-top: 3px  solid black;
-    margin-top: -4px;
-}
-
-.h2-hard{
-    display: flex;
-    justify-content: center;
-    color: #BDBDBD;
-    animation: go-back 2.5s;
-}
-
-.li-hard{
-    font-size: 19px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.li-hard1{
-    animation: go-back 1s;
-}
-
-.li-hard2{
-    animation: go-back 2s;
-}
-
-.li-hard3{
-    animation: go-back 3s;
-}
-
-.li-hard4{
-    animation: go-back 3.5s;
-}
-
-.li-hard5{
-    animation: go-back 4s;
-}
-
-.li-hard6{
-    animation: go-back 4.5s;
-}
-
-.li-hard7{
-    animation: go-back 5s;
-}
-
-.img-hard{
-    display: flex;
-    justify-content: end;
-    margin-top: -340px;
-    margin-right: 100px;
-}
-
-.logo-final1{
-    display: flex;
-    justify-content: center;
-    margin: 45px 0px;
-    margin-right: 12px;
-    font-size: 60px;
-    margin-top: 250px;
-}
-
-.css::-webkit-progress-value {
-    background-color: black;
-    
-  }
-
-  progress {
-    
-    background: yellow;
-    
-  }
-
 .a{
     transition: transform 1s;
   transform: translateX(0) scale(0.5);
@@ -351,9 +265,13 @@ footer{
     transition: transform 0.2s;
 }
 
-.img-eu:hover{
-    transform: scale(1.1);
-    transition: transform 0.2s;
+.logo-final1{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px;
+    margin-right: 12px;
+    font-size: 60px;
+    margin-top: 250px;
 }
 
 .h1-1:hover{
@@ -361,4 +279,123 @@ footer{
 }
 
 
+@media screen and (max-width: 700px) {
+    header{
+        background-color: #EAEAEA;
+        padding: 30px;
+        position: fixed;
+        width: 60%;
+        box-shadow: 10px 0px 5px 5px #EAEAEA;
+    }
 
+    .logo{
+        margin-right: 30px;
+        font-size: 20px;
+        margin-left: -100px;
+    }
+
+    .ul{
+        display: flex;
+        justify-content: end;
+       
+    }
+
+    .a{
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .contatos{
+        margin-right: 10px;
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    
+
+    .primeria-div{
+    background-color: #CCCCCC;
+    padding: 100px 100px;
+}
+
+.h1-1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    animation: go-back 2s;
+}
+
+    .div-img{
+    margin-top: 10px;
+    height: 150px;
+    width: 170px;
+}
+
+
+
+.segunda-div{  
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+.div-img-2{
+    height: 100px;
+    margin-left: -750px;
+    margin-bottom: 10px;
+}
+
+.h1-2{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    animation: go-back 6s;
+    padding-right: -100px;
+}
+
+.sobre{
+    border-top: 5px  solid black;
+}
+
+.texto-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+.bolas{
+    display: flex;
+    justify-content: center; 
+}
+
+.bola {
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+    background-color: #E5E5E5;
+}
+
+.info-bola-titulo{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: -70px;
+}
+
+.infos{
+    margin-top: 30px;
+    margin-right: 4px;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+}

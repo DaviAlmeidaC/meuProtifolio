@@ -1,6 +1,119 @@
 @import url(index.css);
 
 header{
-    margin: -36px;
+    background-color: #EAEAEA;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 0px 5px 5px #EAEAEA;
+    margin-top: -32px;
 }
 
+.h1-hard{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-top: 40px;
+    animation: go-back 2s;
+}
+
+.skils{
+    border-top: 3px  solid black;
+    margin-top: -4px;
+}
+
+.h2-hard{
+    display: flex;
+    justify-content: center;
+    color: #BDBDBD;
+    animation: go-back 2.5s;
+}
+
+.li-hard{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.li-hard1{
+    animation: go-back 1s;
+}
+
+.li-hard2{
+    animation: go-back 2s;
+}
+
+.li-hard3{
+    animation: go-back 3s;
+}
+
+.li-hard4{
+    animation: go-back 3.5s;
+}
+
+.li-hard5{
+    animation: go-back 4s;
+}
+
+.li-hard6{
+    animation: go-back 4.5s;
+}
+
+.li-hard7{
+    animation: go-back 5s;
+}
+
+.img-hard{
+    display: flex;
+    justify-content: end;
+    margin-top: -340px;
+    margin-right: 100px;
+}
+
+
+
+.css::-webkit-progress-value {
+    background-color: black;
+    
+  }
+
+  progress {
+    
+    background: yellow;
+    
+  }
+
+
+
+@media screen and (max-width: 800px) {
+
+    
+.li-hard{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-hard{
+    display: flex;
+    justify-content: end;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+
+.contatos{
+        margin-right: 40px;
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+}
